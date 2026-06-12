@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#6200EE"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="Hasil Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginBottom="24dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/resImgProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="#000000"
+        app:civ_border_width="1dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/resNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Nama: -"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/resLahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Lahir: -"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/resGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Gender: -"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/resJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Jurusan: -"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/resStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Status: -"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI" />
+
+</LinearLayout>
